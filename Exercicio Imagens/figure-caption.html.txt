@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras e legendas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        figure {
+            margin: 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        figure img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Obras de arte</h1>
+    
+    <div class="gallery">
+        <figure>
+            <img src="iamgens/iamgem 1.jpg" alt="Pintura cubista de uma mulher">
+            <figcaption>
+                "Mulher sentada" - Uma obra cubista de 1913.
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="iamgens/iamgem 2.jpg" alt="Pintura abstrata colorida">
+            <figcaption>
+                "Visão abstrata" - Uma tela moderna com cores vibrantes.
+            </figcaption>
+        </figure>
+    </div>
+
+</body>
+</html>

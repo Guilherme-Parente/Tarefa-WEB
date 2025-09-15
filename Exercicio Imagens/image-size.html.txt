@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definir o tamanho da imagem</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        img {
+            margin: 10px;
+            border: 2px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ajustes de tamanho</h1>
+
+    <p>
+        Esta imagem tem <strong>largura de 200px</strong> e <strong>altura de 150px</strong>.
+    </p>
+    <img src="iamgens/iamgem 1.jpg"  alt="Pato na água" width="200" height="150">
+
+    <p>
+        Esta imagem tem <strong>largura de 350px</strong> e <strong>altura de 250px</strong>.
+    </p>
+   <img src="iamgens/iamgem 2.jpg" alt="Pássaro pequeno em um galho" width="350" height="250">
+
+    
+</body>
+</html>
