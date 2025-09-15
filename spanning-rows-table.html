@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrangendo linhas em uma tabela</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Membros da equipe</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Responsabilidades</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Ana Santos</td>
+                <td>Gerenciamento de projetos</td>
+            </tr>
+            <tr>
+                <td>Coordenação de equipe</td>
+            </tr>
+            <tr>
+                <td>João Oliveira</td>
+                <td>Desenvolvimento front-end</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Maria Silva</td>
+                <td>Análise de dados</td>
+            </tr>
+            <tr>
+                <td>Relatórios financeiros</td>
+            </tr>
+            <tr>
+                <td>Planejamento estratégico</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
