@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Semanticamente Estruturada</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tfoot {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Relatório de vendas</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade Vendida</th>
+                <th>Preço Unitário</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Smartphone</td>
+                <td>50</td>
+                <td>R$ 1.500,00</td>
+                <td>R$ 75.000,00</td>
+            </tr>
+            <tr>
+                <td>Notebook</td>
+                <td>30</td>
+                <td>R$ 3.000,00</td>
+                <td>R$ 90.000,00</td>
+            </tr>
+            <tr>
+                <td>Tablet</td>
+                <td>20</td>
+                <td>R$ 800,00</td>
+                <td>R$ 16.000,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total de Vendas</td>
+                <td>R$ 181.000,00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
